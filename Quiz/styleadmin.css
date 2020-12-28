@@ -1,0 +1,139 @@
+.head {
+
+	background-color: lightgreen;
+	padding: 0px;
+	min-width:300px;
+	text-align: left;
+
+}
+
+.loginfo {
+
+	background-color: lightgreen;
+	padding: 0px;
+	text-align: right;
+			
+}
+
+.menu {
+	
+	margin-top: 0.1%;
+	background-color: darkblue;
+	width : 25%;
+	height: auto;
+	display: block;
+	border: 0.1px solid white;
+	text-align: center;
+		
+}
+			
+.menu ul {
+				
+	list-style-type: none;
+	overflow: hidden;
+			
+}
+			
+.menu ul li {
+				
+	float: left;
+	display: inline;
+	border-right: 3px solid #000;
+				
+}
+			
+.menu ul li:first-child {
+			  
+	border-left: 3px solid #000;
+			
+}
+			
+.menu ul li a {
+				
+	color: white;
+	text-decoration: none;
+	background: none;
+	font-size: 20px;
+	font-weight: bold;
+	display: block;
+	text-align: left;
+	padding: 4px 6px;
+			
+}
+			
+
+.menu ul li a:hover {
+				
+	background: black;
+
+}
+			
+li.dropdown {
+			
+	display: inline-block;
+			
+}
+			
+.dropdown-content {
+	
+	display: none;
+	position: absolute;
+	background-color: darkblue;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+			
+}
+			
+.dropdown:hover .dropdown-content {
+			  
+	display: block;
+			
+}
+
+.main{
+	width: 400px;
+	height: 400px;
+	margin: 20px auto;
+}
+
+.container{
+	width: 60%;
+	margin: 0 auto;
+	overflow: auto;
+}
+/* .external {
+		  
+	overflow: hidden;
+	background-color: #c7c7c7;
+	text-align: left;
+	padding: 6px;
+	min-width: 300px;
+			  
+} */
+
+.menuu{
+	width:400px;
+	height: 400px;
+	margin: 20px auto;
+}
+.container{
+	width:60%;
+	margin: 0 auto;
+	overflow: auto;
+}
+a.start{
+	display: inline-block;
+	color:#666;
+	border: 1px dotted #000;
+	padding: 6px 13px;
+}
+li{
+	list-style: none;
+}
+.current{
+	padding: 10px;
+	background: #f4f4f4;
+	border: #000 dotted 1px;
+	margin: 20px 0 10px 0;
+}

@@ -1,0 +1,187 @@
+body {
+	background-color: lightgreen;
+	margin: 0;
+
+}
+
+.head {
+
+	background-color: lightgreen;
+	/* padding: 0px; */
+	min-width:300px;
+	text-align: right;
+
+}
+
+/* .header {
+			 
+	background-color: blue;
+	padding: 0px;
+	text-align: left;
+			
+} */
+
+.loginfo {
+
+	background-color: lightgreen;
+	/* padding: 0px; */
+	text-align: left;
+	
+}
+
+#slide1 {
+
+	width: 100%;
+	height:409px;
+	display:block;
+
+}
+	
+#slide1 img {
+
+	width: 100%;
+	height:409px;
+	
+
+}
+
+#slide2 {
+
+	width: 100%;
+	height:409px;
+	display:none;
+
+}
+	
+#slide2 img {
+
+	width: 100%;
+	height:409px;
+	
+}
+	
+#slide3 {
+
+	width: 100%;
+	height:409px;
+	display:none;
+
+}	
+
+#slide3 img {
+
+	width: 100%;
+	height:409px;
+	
+}
+
+#slide4 {
+
+	width: 100%;
+	height:409px;
+	display:none;
+
+}	
+
+#slide4 img {
+
+	width: 100%;
+	height:409px;
+	
+}
+
+.menu {
+	
+	margin-top: 0.1%;
+	background-color: black;
+	width : auto;
+	height: auto;
+	display: block;
+	border: 0.1px solid white;
+	text-align: center;
+		
+}
+			
+.menu ul {
+				
+	list-style-type: none;
+	overflow: hidden;
+			
+}
+			
+.menu ul li {
+				
+	float: left;
+	display: inline;
+	border-right: 3px solid #000;
+				
+}
+			
+.menu ul li:first-child {
+			  
+	border-left: 3px solid #000;
+			
+}
+			
+.menu ul li a {
+				
+	color: white;
+	text-decoration: none;
+	background: none;
+	font-size: 20px;
+	font-weight: bold;
+	display: block;
+	text-align: left;
+	padding: 4px 6px;
+			
+}
+			
+
+.menu ul li a:hover {
+				
+	background: green;
+
+}
+			
+li.dropdown {
+			
+	display: inline-block;
+			
+}
+			
+.dropdown-content {
+	
+	display: none;
+	position: absolute;
+	background-color: black;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+			
+}
+			
+.dropdown:hover .dropdown-content {
+			  
+	display: block;
+			
+}
+
+.external {
+		  
+	overflow: hidden;
+	background-color: #c7c7c7;
+	text-align: left;
+	padding: 6px;
+	min-width: 300px;
+			  
+}
+
+.foter {
+		  
+	overflow: hidden;
+	background-color: #505050;
+	text-align: left;
+	padding: 6px;
+	min-width: 300px;
+			  
+}
